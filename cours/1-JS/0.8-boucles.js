@@ -1,0 +1,236 @@
+/*
+Les boucles JavaScript
+*/
+
+console.log("=== BOUCLE FOR CLASSIQUE ===");
+
+// Syntaxe: for (initialisation; condition; incrémentation)
+for (let i = 0; i < 5; i++) {
+    console.log(`Itération numéro: ${i}`);
+}
+
+// Exemple pratique: calculer la somme des nombres de 1 à 10
+let somme = 0;
+for (let i = 1; i <= 10; i++) {
+    somme += i;
+}
+console.log(`Somme de 1 à 10: ${somme}`); // 55
+
+// Parcourir un tableau avec for
+let fruits = ["pomme", "banane", "orange"];
+for (let i = 0; i < fruits.length; i++) {
+    console.log(`Fruit ${i + 1}: ${fruits[i]}`);
+}
+
+console.log("=== BOUCLE WHILE ===");
+
+// while: répète TANT QUE la condition est vraie
+// La condition est vérifiée AVANT chaque itération
+
+let compteur = 0;
+while (compteur < 3) {
+    console.log(`Compteur while: ${compteur}`);
+    compteur++; // IMPORTANT: ne pas oublier d'incrémenter !
+}
+
+// Exemple pratique: générer des nombres aléatoires jusqu'à avoir 6
+let nombreAleatoire;
+let tentatives = 0;
+while (nombreAleatoire !== 6) {
+    nombreAleatoire = Math.floor(Math.random() * 10) + 1;
+    tentatives++;
+    console.log(`Tentative ${tentatives}: ${nombreAleatoire}`);
+}
+console.log(`Trouvé 6 en ${tentatives} tentatives!`);
+
+// ATTENTION: éviter les boucles infinies !
+// Cette boucle ne s'arrêtera jamais 
+// while (true) {
+//     console.log("Boucle infinie - DANGER!");
+// }
+
+console.log("=== BOUCLE DO...WHILE ===");
+
+// do...while: exécute le code AU MOINS UNE FOIS, puis vérifie la condition
+// La condition est vérifiée APRÈS chaque itération
+
+let numero = 0;
+do {
+    console.log(`Do-while: ${numero}`);
+    numero++;
+} while (numero < 3);
+
+// Exemple pratique: demander une confirmation (simulation)
+let reponse;
+let essai = 0;
+do {
+    essai++;
+    reponse = essai <= 2 ? "non" : "oui"; // Simulation: dit "oui" au 3e essai
+    console.log(`Essai ${essai}: Voulez-vous continuer? ${reponse}`);
+} while (reponse !== "oui" && essai < 5);
+
+console.log("=== BREAK ET CONTINUE ===");
+
+// break: sort complètement de la boucle
+console.log("--- Exemple avec BREAK ---");
+for (let i = 0; i < 10; i++) {
+    if (i === 5) {
+        console.log("Break à i = 5");
+        break; // Sort de la boucle
+    }
+    console.log(`i = ${i}`);
+}
+// Résultat: affiche de 0 à 4, puis s'arrête
+
+// continue: passe à l'itération suivante
+console.log("--- Exemple avec CONTINUE ---");
+for (let i = 0; i < 5; i++) {
+    if (i === 2) {
+        console.log("Continue: on saute i = 2");
+        continue; // Passe à i = 3
+    }
+    console.log(`i = ${i}`);
+}
+// Résultat: affiche 0, 1, saute 2, puis 3, 4
+
+// Exemple pratique: filtrer les nombres pairs
+console.log("--- Afficher seulement les nombres impairs ---");
+for (let i = 1; i <= 10; i++) {
+    if (i % 2 === 0) {
+        continue; // Sauter les nombres pairs
+    }
+    console.log(`Nombre impair: ${i}`);
+}
+
+console.log("=== LABELS (ÉTIQUETTES) ===");
+
+// Les labels permettent de contrôler les boucles imbriquées
+// Syntaxe: nomLabel: for/while...
+
+boucleExterieure: for (let i = 0; i < 3; i++) {
+    console.log(`Boucle extérieure i = ${i}`);
+    
+    for (let j = 0; j < 3; j++) {
+        if (i === 1 && j === 1) {
+            console.log("Break vers boucleExterieure");
+            break boucleExterieure; // Sort des DEUX boucles
+        }
+        console.log(`  Boucle intérieure j = ${j}`);
+    }
+}
+
+// Exemple avec continue et label
+recherche: for (let i = 0; i < 3; i++) {
+    for (let j = 0; j < 3; j++) {
+        if (i === 1 && j === 0) {
+            console.log("Continue vers recherche");
+            continue recherche; // Passe à i = 2
+        }
+        console.log(`i=${i}, j=${j}`);
+    }
+}
+
+console.log("=== BOUCLE FOR...IN ===");
+
+// for...in: parcourt les PROPRIÉTÉS d'un objet (les clés)
+// Utile pour les objets, pas recommandé pour les tableaux
+
+let personne = {
+    nom: "Marie",
+    age: 30,
+    ville: "Paris"
+};
+
+for (let propriete in personne) {
+    console.log(`${propriete}: ${personne[propriete]}`);
+}
+// Résultat: nom: Marie, age: 30, ville: Paris
+
+// Exemple avec un tableau (à éviter généralement)
+let couleurs = ["rouge", "vert", "bleu"];
+couleurs.proprieteCustom = "ajoutée";
+
+console.log("--- for...in avec tableau (attention!) ---");
+for (let index in couleurs) {
+    console.log(`${index}: ${couleurs[index]}`);
+}
+// Affiche aussi la propriété custom ! C'est pourquoi on évite for...in avec les tableaux
+
+console.log("=== BOUCLE FOR...OF ===");
+
+// for...of: parcourt les VALEURS des objets itérables
+// Recommandé pour les tableaux, chaînes, Map, Set...
+
+console.log("--- for...of avec tableau ---");
+let animaux = ["chat", "chien", "oiseau"];
+for (let animal of animaux) {
+    console.log(`Animal: ${animal}`);
+}
+
+console.log("--- for...of avec chaîne de caractères ---");
+let mot = "Bonjour";
+for (let lettre of mot) {
+    console.log(`Lettre: ${lettre}`);
+}
+
+// Comparaison for...in vs for...of
+console.log("--- Comparaison for...in vs for...of ---");
+let nombres = [10, 20, 30];
+
+console.log("for...in (indices):");
+for (let index in nombres) {
+    console.log(index); // Affiche: 0, 1, 2
+}
+
+console.log("for...of (valeurs):");
+for (let valeur of nombres) {
+    console.log(valeur); // Affiche: 10, 20, 30
+}
+
+console.log("=== DÉCOMPOSITION DANS LES BOUCLES ===");
+
+// On peut utiliser la décomposition avec for...of
+let utilisateurs = [
+    {nom: "Alice", age: 25},
+    {nom: "Bob", age: 30},
+    {nom: "Claire", age: 28}
+];
+
+for (let {nom, age} of utilisateurs) {
+    console.log(`${nom} a ${age} ans`);
+}
+
+// Avec Object.entries() pour parcourir un objet avec for...of
+let produit = {nom: "Laptop", prix: 999, stock: 5};
+for (let [cle, valeur] of Object.entries(produit)) {
+    console.log(`${cle}: ${valeur}`);
+}
+
+
+console.log("=== BONNES PRATIQUES ===");
+
+// 1. Utilisez for...of pour parcourir des tableaux
+let scores = [85, 92, 78, 96];
+for (let score of scores) {
+    console.log(`Score: ${score}`);
+}
+
+// 2. Utilisez for...in pour parcourir des objets
+let config = {theme: "dark", langue: "fr", notifications: true};
+for (let option in config) {
+    console.log(`${option}: ${config[option]}`);
+}
+
+// 3. Préférez la boucle for classique quand vous avez besoin de l'index
+for (let i = 0; i < scores.length; i++) {
+    console.log(`Score ${i + 1}: ${scores[i]}`);
+}
+
+// 4. Utilisez while quand vous ne connaissez pas le nombre d'itérations
+let valeur = 1;
+while (valeur < 100) {
+    valeur *= 2;
+    console.log(`Valeur doublée: ${valeur}`);
+}
+
+console.log("=== FIN DES EXEMPLES DE BOUCLES ===");
