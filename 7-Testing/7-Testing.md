@@ -5,6 +5,7 @@ Une **stratégie de tests** est un plan détaillé qui définit comment les test
 ## Pourquoi une stratégie de tests ?
 
 ### 🎯 **Objectifs**
+
 - **Validation du fonctionnement** - S'assurer que l'application fonctionne comme attendu
 - **Détection précoce des bugs** - Identifier les problèmes avant la production
 - **Confiance en déploiement** - Permettre les déploiements automatiques
@@ -25,11 +26,13 @@ Une **stratégie de tests** est un plan détaillé qui définit comment les test
 ### 📊 **Classification générale**
 
 #### 🔍 **Tests Statiques** (Sans exécution)
+
 - **Analyse de code** - Linters, analyseurs statiques
 - **Code review** - Relecture par les pairs
 - **Analyse de qualité** - SonarQube, ESLint
 
 #### ⚡ **Tests Dynamiques** (Avec exécution)
+
 - **Tests fonctionnels** - Validation des fonctionnalités
 - **Tests non-fonctionnels** - Performance, sécurité, compatibilité
 
@@ -547,24 +550,28 @@ jobs:
 ## Outils et écosystème
 
 ### 🧪 **Frameworks de test**
+
 - **Jest** - Framework complet pour JavaScript
 - **Vitest** - Alternative rapide à Jest (compatible Vite)
 - **Mocha** - Framework flexible avec Chai/Sinon
 - **Jasmine** - Framework BDD
 
 ### 🌐 **E2E Testing**
+
 - **Cypress** - Framework moderne et intuitif
 - **Playwright** - Multi-navigateur par Microsoft
 - **Puppeteer** - Contrôle de Chrome/Chromium
 - **Selenium** - Standard historique
 
 ### 📊 **Code Quality**
+
 - **SonarQube** - Analyse de qualité complète
 - **ESLint** - Linting JavaScript/TypeScript
 - **Prettier** - Formatage de code
 - **Husky** - Git hooks pour automatisation
 
 ### 🎯 **Test Utilities**
+
 - **React Testing Library** - Tests React centrés utilisateur
 - **Vue Test Utils** - Utilitaires pour tester Vue.js
 - **Supertest** - Tests d'API HTTP
