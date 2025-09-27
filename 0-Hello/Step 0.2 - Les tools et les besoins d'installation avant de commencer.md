@@ -12,9 +12,8 @@ Voici ce dont nous aurons besoin :
     - **Obsidian, LogSeq, Roam Research, Any Type, Notion, Evernote, OneNote, Everkeep...**
 3. **Git** installé sur vos PC : [Git](https://git-scm.com/)
 4. **Node.js** installé sur vos PC : [Node.js — Run JavaScript Everywhere](https://nodejs.org/en)
-	- Prenez la version **LTS** (_Long Term Support_) ou **Latest**, comme vous voulez !
-5. Un compte **Github** ou **Gitlab** ( Github est généralement mieux vu dans le marché, mais libre à vous de choisir celui que vous voulez ! ). 
-
+ - Prenez la version **LTS** (_Long Term Support_) ou **Latest**, comme vous voulez !
+5. Un compte **Github** ou **Gitlab** ( Github est généralement mieux vu dans le marché, mais libre à vous de choisir celui que vous voulez ! ).
 
 > **Avantage Étudiant :** Si vous êtes étudiant, vous pouvez avoir accès au **GitHub Student Developer Pack**, qui offre de nombreux outils gratuits : [GitHub Student Developer Pack - GitHub Education](https://education.github.com/pack).
 
@@ -34,3 +33,4 @@ Ceci dit, pour ceux qui utiliseront l'IA plus tard, **utilisez-la bien** :
 - Lisez la documentation d'Anthropic par exemple, pour comprendre les subtilités.
 - Essayez plusieurs IA. **Certaines IA sont meilleures POUR VOUS** (et pas pour d'autres), en fonction de vos connaissances, de la façon dont vous vous expliquez, de la façon dont vous _promptez_ et de la façon dont vous pensez !
 
+<https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices>
