@@ -1,0 +1,4 @@
+# Performance
+
+- Screaming frog
+- Lighthouse
