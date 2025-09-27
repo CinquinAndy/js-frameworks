@@ -2,3 +2,4 @@
 
 - Screaming frog
 - Lighthouse
+- Cache
