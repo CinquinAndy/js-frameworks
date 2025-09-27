@@ -35,4 +35,17 @@ Les package manager :
 // const { nom_du_package } = require('nom_du_package'); // pour les versions antérieures à 2015 
 // (dans les vieilles librairies, on retrouve ça parfois)
 
-// exemple, avec beswib
+// npm init 
+// npm install three
+
+// exemple de code avec three.js
+// import { Three } from 'three';
+
+// let scene = new Three.Scene();
+// let camera = new Three.Camera();
+// let renderer = new Three.Renderer();
+
+// renderer.setSize(window.innerWidth, window.innerHeight);
+// document.body.appendChild(renderer.domElement);
+
+// renderer.render(scene, camera);
