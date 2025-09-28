@@ -1,0 +1,23 @@
+{
+  "name": "esport-betting-database",
+  "version": "1.0.0",
+  "description": "Base de données SQLite pour la plateforme de paris e-sportifs",
+  "main": "test_database.js",
+  "scripts": {
+    "setup": "npm install sqlite3 && node test_database.js",
+    "create-db": "node test_database.js",
+    "explore-db": "node explore_database.js",
+    "reset-db": "rm -f esport_betting.db && node test_database.js"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  },
+  "keywords": [
+    "sqlite",
+    "esport",
+    "betting",
+    "database"
+  ],
+  "author": "Andy",
+  "license": "MIT"
+}
