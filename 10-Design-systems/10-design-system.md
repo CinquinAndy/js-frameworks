@@ -7,11 +7,13 @@
 **Principe :** Tout dans une seule application.
 
 **Avantages :**
+
 - Simple à développer et déployer
 - Débogage facile
 - Performance directe (pas de réseau entre composants)
 
 **Inconvénients :**
+
 - Difficile à faire évoluer
 - Une panne = tout s'arrête
 - Scaling complexe
@@ -25,11 +27,13 @@
 **Principe :** Diviser en couches avec des responsabilités claires.
 
 **Couches typiques :**
+
 - Présentation (UI)
-- Logique métier (Business Logic) 
+- Logique métier (Business Logic)
 - Accès aux données (Data Access)
 
 **Avantages :**
+
 - Organisation claire
 - Réutilisabilité
 - Tests plus faciles
@@ -43,15 +47,18 @@
 **Principe :** Séparer la logique métier des détails techniques.
 
 **Structure :**
+
 - Cœur : Logique métier pure
 - Couches externes : UI, Base de données, APIs
 
 **Avantages :**
+
 - Logique métier isolée
 - Facilite les tests
 - Indépendance des frameworks
 
 **Inconvénients :**
+
 - Plus de complexité initiale
 - Courbe d'apprentissage
 
@@ -62,31 +69,37 @@
 **Principe :** Diviser en petits services indépendants.
 
 **Avantages :**
+
 - Scalabilité fine
 - Technologies différentes par service
 - Équipes autonomes
 
 **Inconvénients :**
+
 - Complexité réseau
 - Gestion des données distribuées
 - Monitoring complexe
 
-**Quand l'utiliser :** Grandes applications, équipes multiples
+**Quand l'utiliser :** Grandes applications, équipes multiples, UNIQUEMENT si ça a un intérêt métier et qu'on peut découpler fortement les couches, si on coupe un Microservices et que l'app démarre pas, c'est que le Microservices ne fonctionne pas !
+Les Microservices doivent être fortement découplés !
 
 ---
 
 ### 5. Architecture MVC/MVP/MVVM (Frontend) 🎨
 
 **MVC (Model-View-Controller) :**
+
 - Model : Données
 - View : Interface
 - Controller : Logique de contrôle
 
 **MVP (Model-View-Presenter) :**
+
 - Presenter remplace Controller
 - Vue plus passive
 
 **MVVM (Model-View-ViewModel) :**
+
 - ViewModel lie View et Model
 - Data binding automatique
 
@@ -97,6 +110,7 @@
 **Principe :** Communication via événements asynchrones.
 
 **Avantages :**
+
 - Découplage fort
 - Réactivité
 - Extensibilité
@@ -110,11 +124,13 @@
 **Principe :** Fonctions déclenchées par événements.
 
 **Avantages :**
+
 - Pas de gestion serveur
 - Scaling automatique
 - Paiement à l'usage
 
 **Inconvénients :**
+
 - Cold start
 - Dépendance au provider
 - Debugging complexe
