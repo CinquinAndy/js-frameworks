@@ -43,13 +43,16 @@ import Header from './components/Header'
 ### ⚡ **Vite** (Recommandé pour nouveaux projets)
 
 **Avantages :**
+
 - Démarrage ultra-rapide (ESM natif en dev)
 - Hot reload instantané
 - Configuration minimale
 - Support TypeScript/JSX natif
 - Rollup en production
+-
 
 **Inconvénients :**
+
 - Plus récent (moins de ressources)
 - Moins de plugins que Webpack
 
@@ -82,6 +85,7 @@ export default defineConfig({
 ### 🏗️ **Webpack** (Le plus populaire)
 
 **Avantages :**
+
 - Écosystème énorme
 - Configuration très flexible
 - Loaders pour tout (CSS, images, fonts...)
@@ -89,6 +93,7 @@ export default defineConfig({
 - Hot Module Replacement
 
 **Inconvénients :**
+
 - Configuration complexe
 - Temps de build lents sur gros projets
 - Courbe d'apprentissage élevée
@@ -164,6 +169,7 @@ module.exports = {
 ### 📦 **Rollup** (Idéal pour librairies)
 
 **Avantages :**
+
 - Bundles très optimisés
 - Tree-shaking excellent
 - Configuration simple
@@ -171,6 +177,7 @@ module.exports = {
 - ES modules natifs
 
 **Inconvénients :**
+
 - Moins de fonctionnalités pour les apps
 - Écosystème plus petit
 - Code splitting limité
@@ -225,6 +232,7 @@ export default {
 ### 🚀 **Parcel** (Zero-config)
 
 **Avantages :**
+
 - Configuration zéro
 - Très rapide
 - Support multi-format natif
@@ -232,6 +240,7 @@ export default {
 - Cache intelligent
 
 **Inconvénients :**
+
 - Moins de contrôle
 - Écosystème plus petit
 - Personnalisation limitée
@@ -249,12 +258,14 @@ export default {
 ### ⚡ **esbuild** (Ultra-rapide)
 
 **Avantages :**
+
 - Vitesse extrême (écrit en Go)
 - Support TypeScript/JSX natif
 - API simple
 - Minification très rapide
 
 **Inconvénients :**
+
 - Fonctionnalités limitées
 - Pas de Hot reload natif
 - Écosystème naissant
@@ -616,16 +627,6 @@ export default defineConfig(({ command, mode }) => {
 })
 ```
 
-## Comparaison des bundlers
-
-| Bundler | Vitesse | Configuration | Écosystème | Use Case |
-|---------|---------|---------------|------------|----------|
-| **Vite** | ⚡⚡⚡ | 🟢 Simple | 🟡 Croissant | Apps modernes |
-| **Webpack** | 🟡 Moyen | 🔴 Complexe | 🟢 Énorme | Apps complexes |
-| **Rollup** | 🟢 Rapide | 🟢 Simple | 🟡 Moyen | Librairies |
-| **Parcel** | 🟢 Rapide | 🟢 Zero-config | 🟡 Limité | Prototypes |
-| **esbuild** | ⚡⚡⚡ | 🟢 Simple | 🔴 Naissant | Build tools |
-
 ## Conseils pratiques
 
 ### ✅ **Bonnes pratiques**
@@ -695,4 +696,4 @@ export default defineConfig({
 - 📊 [Bundle Analysis Tools](https://github.com/webpack-contrib/webpack-bundle-analyzer)
 - 🎯 [Web Performance Guide](https://web.dev/performance/)
 
-Les module bundlers sont essentiels pour le développement JavaScript moderne. Vite est recommandé pour les nouveaux projets grâce à sa simplicité et ses performances, tandis que Webpack reste incontournable pour les projets complexes existants.
+

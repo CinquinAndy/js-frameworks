@@ -515,3 +515,4 @@ type ComplexType<T, U, V> = T extends U ? V extends string ? boolean : never : T
 ```
 
 TypeScript peut sembler intimidant au début, mais il devient vite indispensable pour maintenir du code JavaScript robuste et évolutif !
+
