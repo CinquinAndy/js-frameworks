@@ -27,7 +27,7 @@ Scanne tout votre site automatiquement (lighthouse multiple)
 npx unlighthouse --site https://monsite.com
 ```
 
-[🔗 GitHub Unlighthouse](https://github.com/harlan-zw/unlighthouse)
+[GitHub Unlighthouse](https://github.com/harlan-zw/unlighthouse)
 
 ### 3. Extensions utiles
 
@@ -62,7 +62,7 @@ npx unlighthouse --site https://monsite.com
 
 ---
 
-## Optimisations Code ⚡
+## Optimisations Code
 
 ### CSS
 

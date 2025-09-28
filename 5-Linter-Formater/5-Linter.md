@@ -6,14 +6,14 @@ Les **linters** et **formatters** améliorent la qualité du code en trouvant le
 
 ## Pourquoi utiliser des Linters et Formatters ?
 
-### 🔍 **Linters** (ESLint, TSLint...)
+### **Linters** (ESLint, TSLint...)
 
 - **Détection d'erreurs** - Variables non utilisées, imports manquants
 - **Respect des bonnes pratiques** - Conventions de nommage, patterns recommandés
 - **Sécurité** - Détection de vulnérabilités potentielles
 - **Cohérence d'équipe** - Même style de code pour tous
 
-### 🎨 **Formatters** (Prettier, Biome...)
+### **Formatters** (Prettier, Biome...)
 
 - **Formatage automatique** - Indentation, espaces, retours à la ligne
 - **Gain de temps** - Plus besoin de formater manuellement

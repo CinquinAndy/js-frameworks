@@ -32,7 +32,7 @@ Angular est très utilisé dans les grandes entreprises et dans les projets les 
 
 React est quant à lui beaucoup plus léger et plus permissif. Vous pouvez faire très simple, comme très complexe. Il est utilisé très fortement par une très large partie du marché !
 
-📊 **Référence :** [State of JS 2024 - Front-end Frameworks](https://2024.stateofjs.com/en-US/libraries/front-end-frameworks/)
+**Référence :** [State of JS 2024 - Front-end Frameworks](https://2024.stateofjs.com/en-US/libraries/front-end-frameworks/)
 
 ## Aucun n'est meilleur qu'un autre
 

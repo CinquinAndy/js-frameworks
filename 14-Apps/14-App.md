@@ -1,6 +1,6 @@
 # Applications Desktop & Mobile avec JavaScript
 
-## Applications Desktop 🖥️
+## Applications Desktop
 
 ### 1. Electron (Le standard historique)
 
@@ -76,7 +76,7 @@ npm create tauri-app@latest
 
 ---
 
-## Applications Mobile 📱
+## Applications Mobile
 
 ### 1. React Native (Leader du marché)
 
@@ -187,4 +187,3 @@ if ('serviceWorker' in navigator) {
 
 - Écosystème plus petit
 - Moins populaire
-

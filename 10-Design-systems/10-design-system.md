@@ -22,7 +22,7 @@
 
 ---
 
-### 2. Architecture en Couches (Layered) 📚
+### 2. Architecture en Couches (Layered)
 
 **Principe :** Diviser en couches avec des responsabilités claires.
 
@@ -42,7 +42,7 @@
 
 ---
 
-### 3. Clean Architecture / Architecture Hexagonale 🎯
+### 3. Clean Architecture / Architecture Hexagonale
 
 **Principe :** Séparer la logique métier des détails techniques.
 
@@ -85,7 +85,7 @@ Les Microservices doivent être fortement découplés !
 
 ---
 
-### 5. Architecture MVC/MVP/MVVM (Frontend) 🎨
+### 5. Architecture MVC/MVP/MVVM (Frontend)
 
 **MVC (Model-View-Controller) :**
 
@@ -119,7 +119,7 @@ Les Microservices doivent être fortement découplés !
 
 ---
 
-### 7. Serverless / Functions 🌩️
+### 7. Serverless / Functions
 
 **Principe :** Fonctions déclenchées par événements.
 

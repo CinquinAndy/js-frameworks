@@ -130,7 +130,7 @@ switch (jourSemaine) {
         break;
     case "samedi":
     case "dimanche":
-        console.log("Weekend ! 🎉");
+        console.log("Weekend !");
         break;
     default:
         console.log("Jour non reconnu");

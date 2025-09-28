@@ -12,7 +12,7 @@ L'accessibilité web consiste à **rendre vos sites utilisables par tout le mond
 
 ---
 
-## Obligations légales 2024 ⚖️
+## Obligations légales 2024
 
 ### En France (OBLIGATOIRE)
 
@@ -29,7 +29,7 @@ L'accessibilité web consiste à **rendre vos sites utilisables par tout le mond
 
 ---
 
-## Les 4 principes WCAG (à retenir) 🎯
+## Les 4 principes WCAG (à retenir)
 
 1. **Perceptible** : On doit pouvoir percevoir l'information
 2. **Utilisable** : On doit pouvoir utiliser l'interface
@@ -38,15 +38,15 @@ L'accessibilité web consiste à **rendre vos sites utilisables par tout le mond
 
 ---
 
-## Checklist rapide des essentiels ✅
+## Checklist rapide des essentiels
 
 ### Images
 
 ```html
-<!-- ✅ Bon -->
+<!-- Bon -->
 <img src="chart.png" alt="Ventes en hausse de 15% ce trimestre">
 
-<!-- ❌ Mauvais -->
+<!-- Mauvais -->
 <img src="chart.png" alt="graphique">
 ```
 
@@ -64,11 +64,11 @@ L'accessibilité web consiste à **rendre vos sites utilisables par tout le mond
 ### Structure HTML sémantique
 
 ```html
-<!-- ✅ Bon -->
+<!-- Bon -->
 <header>, <nav>, <main>, <section>, <article>, <aside>, <footer>
 <h1>, <h2>, <h3> (hiérarchie logique)
 
-<!-- ❌ Mauvais -->
+<!-- Mauvais -->
 <div>, <div>, <div> partout
 ```
 
@@ -97,7 +97,7 @@ L'accessibilité web consiste à **rendre vos sites utilisables par tout le mond
 
 ---
 
-## Outils de test indispensables 🛠️
+## Outils de test indispensables
 
 ### Automatiques (quick wins)
 

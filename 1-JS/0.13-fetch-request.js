@@ -221,13 +221,13 @@ async function verifierStatutReponse(url) {
 
         // Différents codes de statut
         if (response.status >= 200 && response.status < 300) {
-            console.log("✅ Succès");
+            console.log("Succès");
         } else if (response.status >= 300 && response.status < 400) {
-            console.log("↗️ Redirection");
+            console.log("Redirection");
         } else if (response.status >= 400 && response.status < 500) {
-            console.log("❌ Erreur client");
+            console.log("Erreur client");
         } else if (response.status >= 500) {
-            console.log("💥 Erreur serveur");
+            console.log("Erreur serveur");
         }
 
         return response;

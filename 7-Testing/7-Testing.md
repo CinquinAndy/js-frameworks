@@ -4,7 +4,7 @@ Une **stratégie de tests** est un plan détaillé qui définit comment les test
 
 ## Pourquoi une stratégie de tests ?
 
-### 🎯 **Objectifs**
+### **Objectifs**
 
 - **Validation du fonctionnement** - S'assurer que l'application fonctionne comme attendu
 - **Détection précoce des bugs** - Identifier les problèmes avant la production
@@ -23,20 +23,20 @@ Une **stratégie de tests** est un plan détaillé qui définit comment les test
 
 ## Types de tests
 
-### 📊 **Classification générale**
+### **Classification générale**
 
-#### 🔍 **Tests Statiques** (Sans exécution)
+#### **Tests Statiques** (Sans exécution)
 
 - **Analyse de code** - Linters, analyseurs statiques
 - **Code review** - Relecture par les pairs
 - **Analyse de qualité** - SonarQube, ESLint
 
-#### ⚡ **Tests Dynamiques** (Avec exécution)
+#### **Tests Dynamiques** (Avec exécution)
 
 - **Tests fonctionnels** - Validation des fonctionnalités
 - **Tests non-fonctionnels** - Performance, sécurité, compatibilité
 
-### 🏗️ **Pyramide des tests**
+### **Pyramide des tests**
 
 ```
         /\
@@ -89,7 +89,7 @@ test('should call onClick when clicked', async () => {
 })
 ```
 
-### 🔗 **Tests d'Intégration**
+### **Tests d'Intégration**
 
 Tests de l'interaction entre différents modules ou services.
 
@@ -133,7 +133,7 @@ test('should display user data after fetch', async () => {
 })
 ```
 
-### 🌐 **Tests End-to-End (E2E)**
+### **Tests End-to-End (E2E)**
 
 Tests complets du parcours utilisateur dans l'application réelle.
 
@@ -173,7 +173,7 @@ test('user can complete purchase', async ({ page }) => {
 
 ## Approches de test
 
-### 📦 **Black Box Testing**
+### **Black Box Testing**
 
 Test sans connaissance du code interne (API, interface utilisateur).
 
@@ -194,7 +194,7 @@ describe('Authentication API', () => {
 })
 ```
 
-### 🔍 **White Box Testing**
+### **White Box Testing**
 
 Test avec connaissance complète du code source.
 

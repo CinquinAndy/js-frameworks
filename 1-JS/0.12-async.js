@@ -43,7 +43,7 @@ operationAsync((resultat) => {
 
 console.log("--- Problème du Callback Hell ---");
 
-// ❌ Code difficile à lire et maintenir
+// Code difficile à lire et maintenir
 function callbackHell() {
     setTimeout(() => {
         console.log("Étape 1");
@@ -51,7 +51,7 @@ function callbackHell() {
             console.log("Étape 2");
             setTimeout(() => {
                 console.log("Étape 3");
-                // Et ça continue... 😱
+                // Et ça continue...
             }, 100);
         }, 100);
     }, 100);

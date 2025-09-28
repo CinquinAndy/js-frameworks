@@ -2,7 +2,7 @@
 
 TypeScript a un univers à lui, des particularités propres, et en gros, c'est un langage qui se base sur le JavaScript. Il vient rajouter tout un tas de types, tout un tas de features, pour pouvoir être capable de déterminer le type des données, et s'assurer de ne pas avoir d'erreur dans notre code.
 
-📚 **Ressource :** [TypeScript Roadmap](https://roadmap.sh/typescript)
+**Ressource :** [TypeScript Roadmap](https://roadmap.sh/typescript)
 
 ## Pourquoi TypeScript ?
 

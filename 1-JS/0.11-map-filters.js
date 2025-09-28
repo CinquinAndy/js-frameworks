@@ -22,9 +22,9 @@ const expeditionnaires = [
 ];
 
 // =========================================================================
-console.log("🔄 1. MAP() - Transformer chaque élément");
+console.log("1. MAP() - Transformer chaque élément");
 // But: Crée un nouveau tableau en appliquant une fonction à chaque élément
-// ⚠️ Ne modifie PAS le tableau original
+// ATTENTION: Ne modifie PAS le tableau original
 // =========================================================================
 
 const resistanceRenforcee = resistanceAuGommage.map(resistance => resistance + 10);
@@ -39,9 +39,9 @@ const fichesExpedition = expeditionnaires.map((membre, index) =>
 console.log("Fiches anti-Gommage:", fichesExpedition);
 
 // =========================================================================
-console.log("🔍 2. FILTER() - Filtrer selon une condition");
+console.log("2. FILTER() - Filtrer selon une condition");
 // But: Retourne un nouveau tableau avec les éléments qui passent le test
-// ⚠️ Ne modifie PAS le tableau original
+// ATTENTION: Ne modifie PAS le tableau original
 // =========================================================================
 
 const survivantsElite = resistanceAuGommage.filter(resistance => resistance >= 90);
@@ -54,7 +54,7 @@ const veteransLumiere = expeditionnaires.filter(membre => membre.resistance > 85
 console.log("Vétérans de Lumière:", veteransLumiere);
 
 // =========================================================================
-console.log("📊 3. REDUCE() - Réduire à une seule valeur");
+console.log("3. REDUCE() - Réduire à une seule valeur");
 // But: Accumule les éléments du tableau en une seule valeur
 // Paramètres: (accumulateur, valeurActuelle, index, tableau)
 // =========================================================================
@@ -72,20 +72,20 @@ const repartitionRoles = expeditionnaires.reduce((compteur, membre) => {
 console.log("Répartition par rôle:", repartitionRoles);
 
 // =========================================================================
-console.log("🔁 4. FOREACH() - Exécuter une action sur chaque élément");
+console.log("4. FOREACH() - Exécuter une action sur chaque élément");
 // But: Exécute une fonction pour chaque élément
-// ⚠️ Ne retourne RIEN (undefined)
+// ATTENTION: Ne retourne RIEN (undefined)
 // =========================================================================
 
-console.log("📢 Rapport de mission:");
+console.log("Rapport de mission:");
 expeditionnaires.forEach((membre, position) => {
-    const statut = membre.resistance >= 90 ? "🏆 Héros" : 
-                   membre.resistance >= 80 ? "⚔️ Combattant" : "🔥 En danger";
+    const statut = membre.resistance >= 90 ? "Héros" : 
+                   membre.resistance >= 80 ? "Combattant" : "En danger";
     console.log(`   ${position + 1}. ${membre.nom}: ${membre.resistance}/100 ${statut}`);
 });
 
 // =========================================================================
-console.log("🎯 5. FIND() - Trouver le premier élément correspondant");
+console.log("5. FIND() - Trouver le premier élément correspondant");
 // But: Retourne le PREMIER élément qui satisfait la condition
 // Retourne undefined si rien n'est trouvé
 // =========================================================================
@@ -100,7 +100,7 @@ const gestral = expeditionnaires.find(membre => membre.role === 'Gestral');
 console.log("Guerrier Gestral:", gestral);
 
 // =========================================================================
-console.log("❓ 6. SOME() - Vérifier si AU MOINS UN élément correspond");
+console.log("6. SOME() - Vérifier si AU MOINS UN élément correspond");
 // But: Retourne true si AU MOINS UN élément satisfait la condition
 // =========================================================================
 
@@ -111,7 +111,7 @@ const aDesGestrals = expeditionnaires.some(membre => membre.role === 'Gestral');
 console.log("Y a-t-il des Gestrals dans l'équipe?", aDesGestrals);
 
 // =========================================================================
-console.log("✅ 7. EVERY() - Vérifier si TOUS les éléments correspondent");
+console.log("7. EVERY() - Vérifier si TOUS les éléments correspondent");
 // But: Retourne true si TOUS les éléments satisfont la condition
 // =========================================================================
 
@@ -122,7 +122,7 @@ const tousOntResistance = expeditionnaires.every(membre => membre.resistance > 0
 console.log("Tous ont-ils une résistance?", tousOntResistance);
 
 // =========================================================================
-console.log("🔍 8. INCLUDES() - Vérifier la présence d'une valeur");
+console.log("8. INCLUDES() - Vérifier la présence d'une valeur");
 // But: Vérifie si le tableau contient une valeur spécifique
 // =========================================================================
 
@@ -132,7 +132,7 @@ console.log("Contient 'Pinceau'?", artefactsLumiere.includes('Pinceau'));
 console.log("Contient 'Gommage'?", artefactsLumiere.includes('Gommage'));
 
 // =========================================================================
-console.log("📍 9. INDEXOF() - Trouver l'index d'une valeur");
+console.log("9. INDEXOF() - Trouver l'index d'une valeur");
 // But: Retourne l'index d'une valeur, ou -1 si non trouvé
 // =========================================================================
 
@@ -142,9 +142,9 @@ console.log("Index de 'Clair-Obscur':", zones.indexOf('Clair-Obscur'));
 console.log("Index de 'Paradis':", zones.indexOf('Paradis')); // -1
 
 // =========================================================================
-console.log("✂️ 10. SPLIT() - Diviser une chaîne en tableau");
+console.log("10. SPLIT() - Diviser une chaîne en tableau");
 // But: Divise une chaîne de caractères en tableau
-// ⚠️ C'est une méthode de String, pas de Array!
+// ATTENTION: C'est une méthode de String, pas de Array!
 // =========================================================================
 
 const prophétie = "La Peintresse gommera tous les habitants de Lumière";
@@ -157,7 +157,7 @@ const [mission, lieu] = coordonnees.split("@");
 console.log(`Mission: ${mission}, Lieu: ${lieu}`);
 
 // =========================================================================
-console.log("🔗 11. JOIN() - Joindre les éléments en chaîne");
+console.log("11. JOIN() - Joindre les éléments en chaîne");
 // But: Joint les éléments du tableau en une chaîne
 // =========================================================================
 
@@ -170,9 +170,9 @@ const route = parcours.join(" > ");
 console.log("Route de l'expédition:", route);
 
 // =========================================================================
-console.log("✂️ 12. SPLICE() - Modifier le tableau en place");
+console.log("12. SPLICE() - Modifier le tableau en place");
 // But: Ajoute/supprime des éléments du tableau
-// ⚠️ MODIFIE le tableau original !
+// ATTENTION: MODIFIE le tableau original !
 // Syntaxe: splice(début, nombreÀSupprimer, ...élémentsÀAjouter)
 // =========================================================================
 
@@ -189,9 +189,9 @@ menaces.splice(2, 0, 'Corruption');
 console.log("Après découverte:", menaces);
 
 // =========================================================================
-console.log("🍰 13. SLICE() - Extraire une portion");
+console.log("13. SLICE() - Extraire une portion");
 // But: Retourne une copie superficielle d'une portion du tableau
-// ⚠️ Ne modifie PAS le tableau original
+// ATTENTION: Ne modifie PAS le tableau original
 // =========================================================================
 
 const chronologie = ['Création', 'Apogée', 'Déclin', 'Gommage', 'Résistance', 'Expédition'];
@@ -207,9 +207,9 @@ const criseActuelle = chronologie.slice(2, 5);
 console.log("Crise actuelle:", criseActuelle);
 
 // =========================================================================
-console.log("🎯 14. SET - Collection de valeurs uniques");
+console.log("14. SET - Collection de valeurs uniques");
 // But: Stocke uniquement des valeurs uniques (pas de doublons)
-// ⚠️ Ce n'est pas une méthode de Array, mais très utile avec !
+// ATTENTION: Ce n'est pas une méthode de Array, mais très utile avec !
 // =========================================================================
 
 const temoignagesGommage = [85, 90, 85, 92, 90, 88, 92, 85];
@@ -227,7 +227,7 @@ console.log("Les preuves contiennent 90?", temoignagesUniques.has(90));
 console.log("Nombre de preuves uniques:", temoignagesUniques.size);
 
 // =========================================================================
-console.log("🗝️ 15. OBJECT.KEYS() / VALUES() / ENTRIES()");
+console.log("15. OBJECT.KEYS() / VALUES() / ENTRIES()");
 // But: Extraire les clés, valeurs, ou paires clé-valeur d'un objet
 // =========================================================================
 
@@ -251,7 +251,7 @@ const rapportMission = Object.entries(missionPeintresse)
 console.log("Rapport formaté:", rapportMission);
 
 // =========================================================================
-console.log("🎪 16. FLAT() - Aplatir les tableaux imbriqués");
+console.log("16. FLAT() - Aplatir les tableaux imbriqués");
 // But: Aplatit les tableaux imbriqués
 // =========================================================================
 

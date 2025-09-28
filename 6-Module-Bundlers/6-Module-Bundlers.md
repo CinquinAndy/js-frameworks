@@ -6,7 +6,7 @@ Les **module bundlers** combinent plusieurs fichiers JavaScript en bundles optim
 
 ## Pourquoi utiliser un Module Bundler ?
 
-### 🎯 **Problèmes résolus**
+### **Problèmes résolus**
 
 - **Gestion des dépendances** - Résolution automatique des imports/exports
 - **Compatibilité navigateur** - Transformation ES6+ vers ES5
@@ -14,7 +14,7 @@ Les **module bundlers** combinent plusieurs fichiers JavaScript en bundles optim
 - **Développement moderne** - Hot reload, source maps, TypeScript
 - **Performance** - Bundling intelligent, lazy loading
 
-### 📦 **Sans bundler (problèmes)**
+### **Sans bundler (problèmes)**
 
 ```html
 <!-- Gestion manuelle des dépendances -->
@@ -27,7 +27,7 @@ Les **module bundlers** combinent plusieurs fichiers JavaScript en bundles optim
 <!-- Ordre important, pas de modules, pollution globale -->
 ```
 
-### ✅ **Avec bundler**
+### **Avec bundler**
 
 ```javascript
 // Imports modernes
@@ -40,7 +40,7 @@ import Header from './components/Header'
 
 ## Les principaux bundlers
 
-### ⚡ **Vite** (Recommandé pour nouveaux projets)
+### **Vite** (Recommandé pour nouveaux projets)
 
 **Avantages :**
 
@@ -82,7 +82,7 @@ export default defineConfig({
 })
 ```
 
-### 🏗️ **Webpack** (Le plus populaire)
+### **Webpack** (Le plus populaire)
 
 **Avantages :**
 
@@ -166,7 +166,7 @@ module.exports = {
 }
 ```
 
-### 📦 **Rollup** (Idéal pour librairies)
+### **Rollup** (Idéal pour librairies)
 
 **Avantages :**
 
@@ -229,7 +229,7 @@ export default {
 }
 ```
 
-### 🚀 **Parcel** (Zero-config)
+### **Parcel** (Zero-config)
 
 **Avantages :**
 
@@ -255,7 +255,7 @@ export default {
 }
 ```
 
-### ⚡ **esbuild** (Ultra-rapide)
+### **esbuild** (Ultra-rapide)
 
 **Avantages :**
 
@@ -318,7 +318,7 @@ output: {
 }
 ```
 
-### 🔄 **Loaders (Webpack)**
+### **Loaders (Webpack)**
 
 ```javascript
 module: {
@@ -389,7 +389,7 @@ plugins: [
 ]
 ```
 
-### ✂️ **Code Splitting**
+### **Code Splitting**
 
 ```javascript
 // Splitting automatique
@@ -442,8 +442,8 @@ const utils = import(
 }
 
 // Import spécifique pour tree shaking
-import { debounce } from 'lodash' // ❌ Importe tout lodash
-import debounce from 'lodash/debounce' // ✅ Importe seulement debounce
+import { debounce } from 'lodash' // Importe tout lodash
+import debounce from 'lodash/debounce' // Importe seulement debounce
 ```
 
 ## Configuration complète Vite (Recommandée)
@@ -565,7 +565,7 @@ export default defineConfig({
 
 ## Optimisations avancées
 
-### 🎯 **Performance**
+### **Performance**
 
 ```javascript
 // Lazy loading des routes
@@ -585,7 +585,7 @@ const nonCritical = import(
 )
 ```
 
-### 📊 **Analyse des bundles**
+### **Analyse des bundles**
 
 ```bash
 # Webpack Bundle Analyzer
@@ -600,7 +600,7 @@ npx vite-bundle-analyzer
 npm install -D rollup-plugin-visualizer
 ```
 
-### 🔧 **Configuration multi-environnement**
+### **Configuration multi-environnement**
 
 ```javascript
 // vite.config.js
@@ -629,7 +629,7 @@ export default defineConfig(({ command, mode }) => {
 
 ## Conseils pratiques
 
-### ✅ **Bonnes pratiques**
+### **Bonnes pratiques**
 
 - **Choisir selon le projet** - Vite pour nouveaux projets, Webpack pour legacy
 - **Optimiser les chunks** - Séparer vendor, common, et pages
@@ -637,14 +637,14 @@ export default defineConfig(({ command, mode }) => {
 - **Analyser régulièrement** - Surveiller la taille des bundles
 - **Lazy loading** - Charger les composants à la demande
 
-### ⚠️ **Pièges à éviter**
+### **Pièges à éviter**
 
 - **Sur-optimisation** - Ne pas optimiser prématurément
 - **Bundles trop gros** - Surveiller la taille (< 250KB initial)
 - **Trop de chunks** - Éviter la fragmentation excessive
 - **Dépendances inutiles** - Auditer régulièrement
 
-### 🔍 **Debugging**
+### **Debugging**
 
 ```javascript
 // Source maps pour le debugging
@@ -688,12 +688,12 @@ export default defineConfig({
 
 ## Ressources pour aller plus loin
 
-- 📚 [Vite Documentation](https://vitejs.dev/)
-- 🏗️ [Webpack Documentation](https://webpack.js.org/)
-- 📦 [Rollup Documentation](https://rollupjs.org/)
-- 🚀 [Parcel Documentation](https://parceljs.org/)
-- ⚡ [esbuild Documentation](https://esbuild.github.io/)
-- 📊 [Bundle Analysis Tools](https://github.com/webpack-contrib/webpack-bundle-analyzer)
-- 🎯 [Web Performance Guide](https://web.dev/performance/)
+- [Vite Documentation](https://vitejs.dev/)
+- [Webpack Documentation](https://webpack.js.org/)
+- [Rollup Documentation](https://rollupjs.org/)
+- [Parcel Documentation](https://parceljs.org/)
+- [esbuild Documentation](https://esbuild.github.io/)
+- [Bundle Analysis Tools](https://github.com/webpack-contrib/webpack-bundle-analyzer)
+- [Web Performance Guide](https://web.dev/performance/)
 
 
