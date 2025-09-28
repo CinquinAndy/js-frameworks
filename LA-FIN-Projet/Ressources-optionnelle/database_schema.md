@@ -1,4 +1,6 @@
 # Schéma de Base de Données - Plateforme de Paris E-sportifs
+<!-- Si vous souhaitez utiliser une db, allez dans le dosser db, et prennez le fichier qui correspond à votre besoin, script, db sqlite directement, peut importe ! vous êtes libre sur ce choix également. -->
+<!-- Ceux qui ne savent pas quoi prendre, partez sur la db sqlite (le fichier en '.db') -->
 
 ```mermaid
 erDiagram

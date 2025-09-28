@@ -1,10 +1,12 @@
 # Palette de Couleurs - Projet E-Sports
 
 > **Note :** Cette palette est optionnelle et destinée aux étudiants qui souhaitent se concentrer sur le développement plutôt que sur la création d'une charte graphique.
+> VOUS POUVEZ CHOISIR LES COULEURS QUE VOUS VOULEZ, CE N'EST QU'UN EXEMPLE
 
 ## Couleurs Principales
 
 ### Thème de Base
+
 | Élément | Couleur | Hex Code | Aperçu |
 |---------|---------|----------|---------|
 | **Background** | Blanc | `#ffffff` | ![#ffffff](https://via.placeholder.com/20/ffffff/ffffff?text=+) |
@@ -13,6 +15,7 @@
 | **Primary Foreground** | Blanc | `#ffffff` | ![#ffffff](https://via.placeholder.com/20/ffffff/ffffff?text=+) |
 
 ### Couleurs Secondaires et d'Accent
+
 | Élément | Couleur | Hex Code | Aperçu |
 |---------|---------|----------|---------|
 | **Secondary** | Vert Sarcelle | `#527575` | ![#527575](https://via.placeholder.com/20/527575/527575?text=+) |
@@ -23,6 +26,7 @@
 ## Composants d'Interface
 
 ### Cartes et Popovers
+
 | Élément | Couleur | Hex Code | Aperçu |
 |---------|---------|----------|---------|
 | **Card** | Blanc | `#ffffff` | ![#ffffff](https://via.placeholder.com/20/ffffff/ffffff?text=+) |
@@ -31,6 +35,7 @@
 | **Popover Foreground** | Gris Foncé | `#111827` | ![#111827](https://via.placeholder.com/20/111827/111827?text=+) |
 
 ### Éléments Atténués
+
 | Élément | Couleur | Hex Code | Aperçu |
 |---------|---------|----------|---------|
 | **Muted** | Gris Très Clair | `#f3f4f6` | ![#f3f4f6](https://via.placeholder.com/20/f3f4f6/f3f4f6?text=+) |
@@ -77,16 +82,19 @@
 ## Utilisation Recommandée
 
 ### Couleurs Principales
+
 - **Primary (`#d87943`)** : Boutons principaux, liens importants, éléments de focus
 - **Secondary (`#527575`)** : Boutons secondaires, éléments de navigation
 - **Accent (`#eeeeee`)** : Arrière-plans subtils, séparateurs
 
 ### Hiérarchie Visuelle
+
 1. **Primaire** : Actions principales et éléments critiques
 2. **Secondaire** : Actions de support et navigation
 3. **Muted** : Informations contextuelles et métadonnées
 
 ### Conseils d'Accessibilité
+
 - Respecter un contraste minimum de 4.5:1 pour le texte
 - Utiliser les combinaisons foreground/background recommandées
 - Tester l'accessibilité avec des outils comme WebAIM
