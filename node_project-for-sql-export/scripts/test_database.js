@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const sqlite3 = require('./node_project-for-sql-export/node_modules/sqlite3/lib/sqlite3').verbose();
+const sqlite3 = require('sqlite3').verbose();
 const fs = require('fs');
 const path = require('path');
 

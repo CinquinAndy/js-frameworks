@@ -4,10 +4,10 @@
   "description": "Base de données SQLite pour la plateforme de paris e-sportifs",
   "main": "test_database.js",
   "scripts": {
-    "setup": "npm install sqlite3 && node test_database.js",
-    "create-db": "node test_database.js",
-    "explore-db": "node explore_database.js",
-    "reset-db": "rm -f esport_betting.db && node test_database.js"
+    "setup": "npm install sqlite3 && node scripts/test_database.js",
+    "create-db": "node scripts/test_database.js",
+    "explore-db": "node scripts/explore_database.js",
+    "reset-db": "rm -f esport_betting.db && node scripts/test_database.js"
   },
   "dependencies": {
     "sqlite3": "^5.1.7"

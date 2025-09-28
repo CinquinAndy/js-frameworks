@@ -1,5 +1,5 @@
 // Test simple de connexion à la base de données
-const sqlite3 = require('./node_project-for-sql-export/node_modules/sqlite3/lib/sqlite3').verbose();
+const sqlite3 = require('sqlite3').verbose();
 
 const db = new sqlite3.Database('./esport_betting.db', (err) => {
     if (err) {
