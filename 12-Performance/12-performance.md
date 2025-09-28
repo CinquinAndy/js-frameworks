@@ -8,7 +8,7 @@
 
 ---
 
-## Outils de mesure et audit 🔍
+## Outils de mesure et audit
 
 ### 1. Google Lighthouse (Gratuit et intégré)
 
@@ -36,7 +36,7 @@ npx unlighthouse --site https://monsite.com
 
 ---
 
-## Optimisations Images 🖼️
+## Optimisations Images
 
 ### Formats recommandés (par ordre de préférence)
 
@@ -114,7 +114,7 @@ npx unlighthouse --site https://monsite.com
 
 ---
 
-## Outils accessibilité bonus ♿
+## Outils accessibilité bonus
 
 - **WAVE** : Audit accessibilité automatique
 - **IBM Accessibility Checker** : Tests plus poussés
@@ -122,7 +122,7 @@ npx unlighthouse --site https://monsite.com
 
 ---
 
-## Ressources avancées 🎓
+## Ressources avancées
 
 - [The Ultimate Guide to Web Performance](https://youtu.be/0fONene3OIA) - Vidéo complète
 - [Web.dev Performance](https://web.dev/performance/) - Google
