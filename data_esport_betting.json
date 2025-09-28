@@ -1,0 +1,934 @@
+{
+  "games": [
+    {
+      "id": "01234567-89ab-cdef-0123-456789abcdef",
+      "name": "League of Legends",
+      "category": "MOBA",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "12345678-9abc-def0-1234-56789abcdef0",
+      "name": "Counter-Strike 2",
+      "category": "FPS",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "23456789-abcd-ef01-2345-6789abcdef01",
+      "name": "Valorant",
+      "category": "FPS",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "34567890-bcde-f012-3456-789abcdef012",
+      "name": "Rocket League",
+      "category": "Sports",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "45678901-cdef-0123-4567-89abcdef0123",
+      "name": "Fortnite",
+      "category": "Battle Royale",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "56789012-def0-1234-5678-9abcdef01234",
+      "name": "Apex Legends",
+      "category": "Battle Royale",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "6789012d-ef01-2345-6789-abcdef012345",
+      "name": "Overwatch 2",
+      "category": "FPS",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "789012de-f012-3456-789a-bcdef0123456",
+      "name": "FIFA 24",
+      "category": "Sports",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "89012def-0123-4567-89ab-cdef01234567",
+      "name": "Street Fighter 6",
+      "category": "Fighting",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "9012def0-1234-5678-9abc-def012345678",
+      "name": "Tekken 8",
+      "category": "Fighting",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "teams": [
+    {
+      "id": "a1234567-89ab-cdef-0123-456789abcdef",
+      "name": "Team Vitality",
+      "tag": "VIT",
+      "country": "FR",
+      "logo_url": "https://example.com/vitality_logo.png",
+      "founded_year": 2013,
+      "total_earnings": 2500000.00,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "b2345678-9abc-def0-1234-56789abcdef0",
+      "name": "Karmine Corp",
+      "tag": "KC",
+      "country": "FR",
+      "logo_url": "https://example.com/kcorp_logo.png",
+      "founded_year": 2020,
+      "total_earnings": 800000.00,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "c3456789-abcd-ef01-2345-6789abcdef01",
+      "name": "Team LDLC",
+      "tag": "LDLC",
+      "country": "FR",
+      "logo_url": "https://example.com/ldlc_logo.png",
+      "founded_year": 2010,
+      "total_earnings": 1200000.00,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "d4567890-bcde-f012-3456-789abcdef012",
+      "name": "Team Solary",
+      "tag": "SLY",
+      "country": "FR",
+      "logo_url": "https://example.com/solary_logo.png",
+      "founded_year": 2017,
+      "total_earnings": 450000.00,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "e5678901-cdef-0123-4567-89abcdef0123",
+      "name": "GamersOrigin",
+      "tag": "GO",
+      "country": "FR",
+      "logo_url": "https://example.com/go_logo.png",
+      "founded_year": 2017,
+      "total_earnings": 350000.00,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "f6789012-def0-1234-5678-9abcdef01234",
+      "name": "MCES",
+      "tag": "MCES",
+      "country": "FR",
+      "logo_url": "https://example.com/mces_logo.png",
+      "founded_year": 2021,
+      "total_earnings": 200000.00,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "a789012d-ef01-2345-6789-abcdef012345",
+      "name": "Mandatory.gg",
+      "tag": "MDT",
+      "country": "FR",
+      "logo_url": "https://example.com/mandatory_logo.png",
+      "founded_year": 2020,
+      "total_earnings": 180000.00,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "b89012de-f012-3456-789a-bcdef0123456",
+      "name": "Team BDS",
+      "tag": "BDS",
+      "country": "FR",
+      "logo_url": "https://example.com/bds_logo.png",
+      "founded_year": 2018,
+      "total_earnings": 900000.00,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "c9012def-0123-4567-89ab-cdef01234567",
+      "name": "Gentle Mates",
+      "tag": "GM",
+      "country": "FR",
+      "logo_url": "https://example.com/gm_logo.png",
+      "founded_year": 2021,
+      "total_earnings": 300000.00,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "d012def0-1234-5678-9abc-def012345678",
+      "name": "Atlético Esports",
+      "tag": "ATL",
+      "country": "FR",
+      "logo_url": "https://example.com/atletico_logo.png",
+      "founded_year": 2019,
+      "total_earnings": 250000.00,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "players": [
+    {
+      "id": "p1234567-89ab-cdef-0123-456789abcdef",
+      "username": "Caps",
+      "real_name": "Rasmus Winther",
+      "country": "FR",
+      "age": 24,
+      "role": "Mid Laner",
+      "avatar_url": null,
+      "total_earnings": 800000.00,
+      "twitch_followers": 120000,
+      "youtube_subscribers": 85000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p2345678-9abc-def0-1234-56789abcdef0",
+      "username": "Yellowstar",
+      "real_name": "Bora Kim",
+      "country": "FR",
+      "age": 29,
+      "role": "Support",
+      "avatar_url": null,
+      "total_earnings": 500000.00,
+      "twitch_followers": 95000,
+      "youtube_subscribers": 62000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p3456789-abcd-ef01-2345-6789abcdef01",
+      "username": "Rekkles",
+      "real_name": "Martin Larsson",
+      "country": "FR",
+      "age": 27,
+      "role": "ADC",
+      "avatar_url": null,
+      "total_earnings": 750000.00,
+      "twitch_followers": 180000,
+      "youtube_subscribers": 120000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p4567890-bcde-f012-3456-789abcdef012",
+      "username": "sOAZ",
+      "real_name": "Paul Boyer",
+      "country": "FR",
+      "age": 30,
+      "role": "Top Laner",
+      "avatar_url": null,
+      "total_earnings": 450000.00,
+      "twitch_followers": 75000,
+      "youtube_subscribers": 45000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p5678901-cdef-0123-4567-89abcdef0123",
+      "username": "Targamas",
+      "real_name": "Raphaël Crabbé",
+      "country": "FR",
+      "age": 23,
+      "role": "Support",
+      "avatar_url": null,
+      "total_earnings": 200000.00,
+      "twitch_followers": 55000,
+      "youtube_subscribers": 32000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p6789012-def0-1234-5678-9abcdef01234",
+      "username": "ZywOo",
+      "real_name": "Mathieu Herbaut",
+      "country": "FR",
+      "age": 23,
+      "role": "AWPer",
+      "avatar_url": null,
+      "total_earnings": 600000.00,
+      "twitch_followers": 250000,
+      "youtube_subscribers": 180000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p789012d-ef01-2345-6789-abcdef012345",
+      "username": "shox",
+      "real_name": "Richard Papillon",
+      "country": "FR",
+      "age": 31,
+      "role": "Rifler",
+      "avatar_url": null,
+      "total_earnings": 800000.00,
+      "twitch_followers": 180000,
+      "youtube_subscribers": 120000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p89012de-f012-3456-789a-bcdef0123456",
+      "username": "NBK",
+      "real_name": "Nathan Schmitt",
+      "country": "FR",
+      "age": 29,
+      "role": "IGL",
+      "avatar_url": null,
+      "total_earnings": 650000.00,
+      "twitch_followers": 140000,
+      "youtube_subscribers": 95000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p9012def-0123-4567-89ab-cdef01234567",
+      "username": "apEX",
+      "real_name": "Dan Madesclaire",
+      "country": "FR",
+      "age": 30,
+      "role": "Entry Fragger",
+      "avatar_url": null,
+      "total_earnings": 720000.00,
+      "twitch_followers": 160000,
+      "youtube_subscribers": 110000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p012def0-1234-5678-9abc-def012345678",
+      "username": "RpK",
+      "real_name": "Cédric Guipouy",
+      "country": "FR",
+      "age": 33,
+      "role": "Support",
+      "avatar_url": null,
+      "total_earnings": 550000.00,
+      "twitch_followers": 120000,
+      "youtube_subscribers": 80000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p123def0-1234-5678-9abc-def012345679",
+      "username": "Squeezie",
+      "real_name": "Lucas Hauchard",
+      "country": "FR",
+      "age": 28,
+      "role": "Content Creator",
+      "avatar_url": null,
+      "total_earnings": 2000000.00,
+      "twitch_followers": 800000,
+      "youtube_subscribers": 18500000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p234def0-1234-5678-9abc-def01234567a",
+      "username": "Gotaga",
+      "real_name": "Corentin Houssein",
+      "country": "FR",
+      "age": 32,
+      "role": "Streamer/Pro",
+      "avatar_url": null,
+      "total_earnings": 1200000.00,
+      "twitch_followers": 650000,
+      "youtube_subscribers": 3200000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p345def0-1234-5678-9abc-def01234567b",
+      "username": "Zerator",
+      "real_name": "Adrien Nougaret",
+      "country": "FR",
+      "age": 38,
+      "role": "Streamer",
+      "avatar_url": null,
+      "total_earnings": 800000.00,
+      "twitch_followers": 420000,
+      "youtube_subscribers": 1800000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p456def0-1234-5678-9abc-def01234567c",
+      "username": "Domingo",
+      "real_name": "Thomas Aranega",
+      "country": "FR",
+      "age": 30,
+      "role": "Streamer",
+      "avatar_url": null,
+      "total_earnings": 350000.00,
+      "twitch_followers": 180000,
+      "youtube_subscribers": 850000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p567def0-1234-5678-9abc-def01234567d",
+      "username": "Locklear",
+      "real_name": "Théo Kaessmann",
+      "country": "FR",
+      "age": 26,
+      "role": "Streamer",
+      "avatar_url": null,
+      "total_earnings": 280000.00,
+      "twitch_followers": 150000,
+      "youtube_subscribers": 620000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p678def0-1234-5678-9abc-def01234567e",
+      "username": "Jiraya",
+      "real_name": "Jiraya",
+      "country": "FR",
+      "age": 28,
+      "role": "Streamer",
+      "avatar_url": null,
+      "total_earnings": 220000.00,
+      "twitch_followers": 125000,
+      "youtube_subscribers": 480000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p789def0-1234-5678-9abc-def01234567f",
+      "username": "MoMaN",
+      "real_name": "Morgan Molina",
+      "country": "FR",
+      "age": 29,
+      "role": "Streamer",
+      "avatar_url": null,
+      "total_earnings": 200000.00,
+      "twitch_followers": 110000,
+      "youtube_subscribers": 380000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p890def0-1234-5678-9abc-def012345680",
+      "username": "Fuze",
+      "real_name": "Florian Martin",
+      "country": "FR",
+      "age": 25,
+      "role": "Streamer",
+      "avatar_url": null,
+      "total_earnings": 180000.00,
+      "twitch_followers": 95000,
+      "youtube_subscribers": 320000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p901def0-1234-5678-9abc-def012345681",
+      "username": "Doigby",
+      "real_name": "Dorian",
+      "country": "FR",
+      "age": 24,
+      "role": "Streamer",
+      "avatar_url": null,
+      "total_earnings": 150000.00,
+      "twitch_followers": 85000,
+      "youtube_subscribers": 280000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p012def1-1234-5678-9abc-def012345682",
+      "username": "Kameto",
+      "real_name": "Kamel Kebir",
+      "country": "FR",
+      "age": 29,
+      "role": "Streamer/CEO",
+      "avatar_url": null,
+      "total_earnings": 1500000.00,
+      "twitch_followers": 450000,
+      "youtube_subscribers": 2100000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p123def1-1234-5678-9abc-def012345683",
+      "username": "ScreaM",
+      "real_name": "Adil Benrlitom",
+      "country": "FR",
+      "age": 29,
+      "role": "Duelist",
+      "avatar_url": null,
+      "total_earnings": 400000.00,
+      "twitch_followers": 320000,
+      "youtube_subscribers": 220000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p234def1-1234-5678-9abc-def012345684",
+      "username": "Nivera",
+      "real_name": "Nivera",
+      "country": "FR",
+      "age": 22,
+      "role": "Sentinel",
+      "avatar_url": null,
+      "total_earnings": 250000.00,
+      "twitch_followers": 85000,
+      "youtube_subscribers": 60000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p345def1-1234-5678-9abc-def012345685",
+      "username": "AKUMAAAA",
+      "real_name": "Akuma",
+      "country": "FR",
+      "age": 25,
+      "role": "Controller",
+      "avatar_url": null,
+      "total_earnings": 180000.00,
+      "twitch_followers": 75000,
+      "youtube_subscribers": 45000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p456def1-1234-5678-9abc-def012345686",
+      "username": "Bramz",
+      "real_name": "Bramz",
+      "country": "FR",
+      "age": 24,
+      "role": "Initiator",
+      "avatar_url": null,
+      "total_earnings": 160000.00,
+      "twitch_followers": 65000,
+      "youtube_subscribers": 38000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p567def1-1234-5678-9abc-def012345687",
+      "username": "Fairy Peak",
+      "real_name": "Victor Locquet",
+      "country": "FR",
+      "age": 24,
+      "role": "Striker",
+      "avatar_url": null,
+      "total_earnings": 350000.00,
+      "twitch_followers": 140000,
+      "youtube_subscribers": 95000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p678def1-1234-5678-9abc-def012345688",
+      "username": "Kaydop",
+      "real_name": "Alexandre Courant",
+      "country": "FR",
+      "age": 25,
+      "role": "All-around",
+      "avatar_url": null,
+      "total_earnings": 400000.00,
+      "twitch_followers": 120000,
+      "youtube_subscribers": 85000,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "p789def1-1234-5678-9abc-def012345689",
+      "username": "Alpha54",
+      "real_name": "Alpha54",
+      "country": "FR",
+      "age": 22,
+      "role": "Striker",
+      "avatar_url": null,
+      "total_earnings": 300000.00,
+      "twitch_followers": 95000,
+      "youtube_subscribers": 65000,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "team_players": [
+    {
+      "id": "tp123456-789a-bcde-f012-3456789abcde",
+      "team_id": "a1234567-89ab-cdef-0123-456789abcdef",
+      "player_id": "p1234567-89ab-cdef-0123-456789abcdef",
+      "position": "Mid Laner",
+      "join_date": "2022-01-15",
+      "salary": 25000.00,
+      "is_active": true
+    },
+    {
+      "id": "tp234567-89ab-cdef-0123-456789abcdef",
+      "team_id": "a1234567-89ab-cdef-0123-456789abcdef",
+      "player_id": "p6789012-def0-1234-5678-9abcdef01234",
+      "position": "AWPer",
+      "join_date": "2020-09-01",
+      "salary": 30000.00,
+      "is_active": true
+    },
+    {
+      "id": "tp345678-9abc-def0-1234-56789abcdef0",
+      "team_id": "b2345678-9abc-def0-1234-56789abcdef0",
+      "player_id": "p012def1-1234-5678-9abc-def012345682",
+      "position": "CEO/Owner",
+      "join_date": "2020-05-01",
+      "salary": 50000.00,
+      "is_active": true
+    },
+    {
+      "id": "tp456789-abcd-ef01-2345-6789abcdef01",
+      "team_id": "b2345678-9abc-def0-1234-56789abcdef0",
+      "player_id": "p123def1-1234-5678-9abc-def012345683",
+      "position": "Duelist",
+      "join_date": "2021-03-15",
+      "salary": 22000.00,
+      "is_active": true
+    },
+    {
+      "id": "tp567890-bcde-f012-3456-789abcdef012",
+      "team_id": "c3456789-abcd-ef01-2345-6789abcdef01",
+      "player_id": "p89012de-f012-3456-789a-bcdef0123456",
+      "position": "IGL",
+      "join_date": "2019-06-01",
+      "salary": 20000.00,
+      "is_active": true
+    },
+    {
+      "id": "tp678901-cdef-0123-4567-89abcdef0123",
+      "team_id": "c3456789-abcd-ef01-2345-6789abcdef01",
+      "player_id": "p9012def-0123-4567-89ab-cdef01234567",
+      "position": "Entry Fragger",
+      "join_date": "2018-08-15",
+      "salary": 23000.00,
+      "is_active": true
+    },
+    {
+      "id": "tp789012-def0-1234-5678-9abcdef01234",
+      "team_id": "d4567890-bcde-f012-3456-789abcdef012",
+      "player_id": "p234def0-1234-5678-9abc-def01234567a",
+      "position": "Content Creator",
+      "join_date": "2017-03-01",
+      "salary": 35000.00,
+      "is_active": true
+    },
+    {
+      "id": "tp890123-ef01-2345-6789-abcdef012345",
+      "team_id": "b89012de-f012-3456-789a-bcdef0123456",
+      "player_id": "p567def1-1234-5678-9abc-def012345687",
+      "position": "Striker",
+      "join_date": "2021-01-10",
+      "salary": 18000.00,
+      "is_active": true
+    },
+    {
+      "id": "tp901234-f012-3456-789a-bcdef0123456",
+      "team_id": "b89012de-f012-3456-789a-bcdef0123456",
+      "player_id": "p678def1-1234-5678-9abc-def012345688",
+      "position": "All-around",
+      "join_date": "2020-11-15",
+      "salary": 19000.00,
+      "is_active": true
+    }
+  ],
+  "tournaments": [
+    {
+      "id": "t1234567-89ab-cdef-0123-456789abcdef",
+      "name": "LEC Spring 2024",
+      "game_id": "01234567-89ab-cdef-0123-456789abcdef",
+      "prize_pool": 250000.00,
+      "start_date": "2024-01-20",
+      "end_date": "2024-04-14",
+      "location": "Berlin, Germany",
+      "status": "completed"
+    },
+    {
+      "id": "t2345678-9abc-def0-1234-56789abcdef0",
+      "name": "BLAST Premier Spring 2024",
+      "game_id": "12345678-9abc-def0-1234-56789abcdef0",
+      "prize_pool": 425000.00,
+      "start_date": "2024-01-31",
+      "end_date": "2024-06-16",
+      "location": "Copenhagen, Denmark",
+      "status": "completed"
+    },
+    {
+      "id": "t3456789-abcd-ef01-2345-6789abcdef01",
+      "name": "VCT Masters Madrid 2024",
+      "game_id": "23456789-abcd-ef01-2345-6789abcdef01",
+      "prize_pool": 500000.00,
+      "start_date": "2024-03-14",
+      "end_date": "2024-03-24",
+      "location": "Madrid, Spain",
+      "status": "completed"
+    },
+    {
+      "id": "t4567890-bcde-f012-3456-789abcdef012",
+      "name": "RLCS Winter Cup 2024",
+      "game_id": "34567890-bcde-f012-3456-789abcdef012",
+      "prize_pool": 100000.00,
+      "start_date": "2024-12-01",
+      "end_date": "2024-12-15",
+      "location": "Los Angeles, USA",
+      "status": "upcoming"
+    },
+    {
+      "id": "t5678901-cdef-0123-4567-89abcdef0123",
+      "name": "LFL Summer 2024",
+      "game_id": "01234567-89ab-cdef-0123-456789abcdef",
+      "prize_pool": 75000.00,
+      "start_date": "2024-05-28",
+      "end_date": "2024-08-18",
+      "location": "Paris, France",
+      "status": "completed"
+    },
+    {
+      "id": "t6789012-def0-1234-5678-9abcdef01234",
+      "name": "Trackmania Cup 2024",
+      "game_id": "45678901-cdef-0123-4567-89abcdef0123",
+      "prize_pool": 50000.00,
+      "start_date": "2024-10-15",
+      "end_date": "2024-10-20",
+      "location": "Lyon, France",
+      "status": "upcoming"
+    }
+  ],
+  "matches": [
+    {
+      "id": "m1234567-89ab-cdef-0123-456789abcdef",
+      "tournament_id": "t1234567-89ab-cdef-0123-456789abcdef",
+      "team1_id": "a1234567-89ab-cdef-0123-456789abcdef",
+      "team2_id": "b2345678-9abc-def0-1234-56789abcdef0",
+      "game_id": "01234567-89ab-cdef-0123-456789abcdef",
+      "match_date": "2024-02-15T18:00:00Z",
+      "status": "completed",
+      "team1_score": 2,
+      "team2_score": 1,
+      "winner_id": "a1234567-89ab-cdef-0123-456789abcdef",
+      "format": "Bo3",
+      "created_at": "2024-02-01T00:00:00Z"
+    },
+    {
+      "id": "m2345678-9abc-def0-1234-56789abcdef0",
+      "tournament_id": "t1234567-89ab-cdef-0123-456789abcdef",
+      "team1_id": "b2345678-9abc-def0-1234-56789abcdef0",
+      "team2_id": "b89012de-f012-3456-789a-bcdef0123456",
+      "game_id": "01234567-89ab-cdef-0123-456789abcdef",
+      "match_date": "2024-02-22T19:00:00Z",
+      "status": "completed",
+      "team1_score": 1,
+      "team2_score": 2,
+      "winner_id": "b89012de-f012-3456-789a-bcdef0123456",
+      "format": "Bo3",
+      "created_at": "2024-02-08T00:00:00Z"
+    },
+    {
+      "id": "m3456789-abcd-ef01-2345-6789abcdef01",
+      "tournament_id": "t2345678-9abc-def0-1234-56789abcdef0",
+      "team1_id": "a1234567-89ab-cdef-0123-456789abcdef",
+      "team2_id": "c3456789-abcd-ef01-2345-6789abcdef01",
+      "game_id": "12345678-9abc-def0-1234-56789abcdef0",
+      "match_date": "2024-03-10T16:00:00Z",
+      "status": "completed",
+      "team1_score": 16,
+      "team2_score": 12,
+      "winner_id": "a1234567-89ab-cdef-0123-456789abcdef",
+      "format": "Bo1",
+      "created_at": "2024-02-25T00:00:00Z"
+    },
+    {
+      "id": "m4567890-bcde-f012-3456-789abcdef012",
+      "tournament_id": "t3456789-abcd-ef01-2345-6789abcdef01",
+      "team1_id": "b2345678-9abc-def0-1234-56789abcdef0",
+      "team2_id": "f6789012-def0-1234-5678-9abcdef01234",
+      "game_id": "23456789-abcd-ef01-2345-6789abcdef01",
+      "match_date": "2024-03-18T15:30:00Z",
+      "status": "completed",
+      "team1_score": 2,
+      "team2_score": 0,
+      "winner_id": "b2345678-9abc-def0-1234-56789abcdef0",
+      "format": "Bo3",
+      "created_at": "2024-03-05T00:00:00Z"
+    },
+    {
+      "id": "m5678901-cdef-0123-4567-89abcdef0123",
+      "tournament_id": "t4567890-bcde-f012-3456-789abcdef012",
+      "team1_id": "b89012de-f012-3456-789a-bcdef0123456",
+      "team2_id": "d4567890-bcde-f012-3456-789abcdef012",
+      "game_id": "34567890-bcde-f012-3456-789abcdef012",
+      "match_date": "2024-12-05T20:00:00Z",
+      "status": "scheduled",
+      "team1_score": 0,
+      "team2_score": 0,
+      "winner_id": null,
+      "format": "Bo5",
+      "created_at": "2024-11-20T00:00:00Z"
+    },
+    {
+      "id": "m6789012-def0-1234-5678-9abcdef01234",
+      "tournament_id": "t4567890-bcde-f012-3456-789abcdef012",
+      "team1_id": "a1234567-89ab-cdef-0123-456789abcdef",
+      "team2_id": "c9012def-0123-4567-89ab-cdef01234567",
+      "game_id": "34567890-bcde-f012-3456-789abcdef012",
+      "match_date": "2024-12-08T19:00:00Z",
+      "status": "scheduled",
+      "team1_score": 0,
+      "team2_score": 0,
+      "winner_id": null,
+      "format": "Bo3",
+      "created_at": "2024-11-20T00:00:00Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "u1234567-89ab-cdef-0123-456789abcdef",
+      "username": "bet_master_fr",
+      "email": "betmaster@example.com",
+      "password_hash": "hashed_password_1",
+      "balance": 500.00,
+      "total_bet": 1200.00,
+      "total_won": 800.00,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "u2345678-9abc-def0-1234-56789abcdef0",
+      "username": "esport_fan_69",
+      "email": "esportfan@example.com",
+      "password_hash": "hashed_password_2",
+      "balance": 250.00,
+      "total_bet": 800.00,
+      "total_won": 920.00,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "u3456789-abcd-ef01-2345-6789abcdef01",
+      "username": "gamer_paris",
+      "email": "gamerparis@example.com",
+      "password_hash": "hashed_password_3",
+      "balance": 1000.00,
+      "total_bet": 2500.00,
+      "total_won": 2100.00,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "u4567890-bcde-f012-3456-789abcdef012",
+      "username": "vitality_supporter",
+      "email": "vit_fan@example.com",
+      "password_hash": "hashed_password_4",
+      "balance": 150.00,
+      "total_bet": 600.00,
+      "total_won": 400.00,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "u5678901-cdef-0123-4567-89abcdef0123",
+      "username": "kcorp_believer",
+      "email": "kc_fan@example.com",
+      "password_hash": "hashed_password_5",
+      "balance": 300.00,
+      "total_bet": 950.00,
+      "total_won": 1150.00,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "u6789012-def0-1234-5678-9abcdef01234",
+      "username": "cs_addict",
+      "email": "csaddict@example.com",
+      "password_hash": "hashed_password_6",
+      "balance": 750.00,
+      "total_bet": 1800.00,
+      "total_won": 1950.00,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "u789012d-ef01-2345-6789-abcdef012345",
+      "username": "lol_expert",
+      "email": "lolexpert@example.com",
+      "password_hash": "hashed_password_7",
+      "balance": 400.00,
+      "total_bet": 1100.00,
+      "total_won": 850.00,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "u89012de-f012-3456-789a-bcdef0123456",
+      "username": "rocket_fan",
+      "email": "rocketfan@example.com",
+      "password_hash": "hashed_password_8",
+      "balance": 200.00,
+      "total_bet": 500.00,
+      "total_won": 380.00,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "bets": [
+    {
+      "id": "b1234567-89ab-cdef-0123-456789abcdef",
+      "user_id": "u4567890-bcde-f012-3456-789abcdef012",
+      "match_id": "m1234567-89ab-cdef-0123-456789abcdef",
+      "team_id": "a1234567-89ab-cdef-0123-456789abcdef",
+      "amount": 50.00,
+      "odds": 1.85,
+      "potential_payout": 92.50,
+      "status": "won",
+      "placed_at": "2024-02-14T12:00:00Z"
+    },
+    {
+      "id": "b2345678-9abc-def0-1234-56789abcdef0",
+      "user_id": "u5678901-cdef-0123-4567-89abcdef0123",
+      "match_id": "m1234567-89ab-cdef-0123-456789abcdef",
+      "team_id": "b2345678-9abc-def0-1234-56789abcdef0",
+      "amount": 75.00,
+      "odds": 2.10,
+      "potential_payout": 157.50,
+      "status": "lost",
+      "placed_at": "2024-02-14T14:00:00Z"
+    },
+    {
+      "id": "b3456789-abcd-ef01-2345-6789abcdef01",
+      "user_id": "u5678901-cdef-0123-4567-89abcdef0123",
+      "match_id": "m2345678-9abc-def0-1234-56789abcdef0",
+      "team_id": "b89012de-f012-3456-789a-bcdef0123456",
+      "amount": 100.00,
+      "odds": 2.25,
+      "potential_payout": 225.00,
+      "status": "won",
+      "placed_at": "2024-02-21T16:00:00Z"
+    },
+    {
+      "id": "b4567890-bcde-f012-3456-789abcdef012",
+      "user_id": "u89012de-f012-3456-789a-bcdef0123456",
+      "match_id": "m5678901-cdef-0123-4567-89abcdef0123",
+      "team_id": "b89012de-f012-3456-789a-bcdef0123456",
+      "amount": 80.00,
+      "odds": 1.70,
+      "potential_payout": 136.00,
+      "status": "pending",
+      "placed_at": "2024-11-25T10:00:00Z"
+    },
+    {
+      "id": "b5678901-cdef-0123-4567-89abcdef0123",
+      "user_id": "u3456789-abcd-ef01-2345-6789abcdef01",
+      "match_id": "m6789012-def0-1234-5678-9abcdef01234",
+      "team_id": "a1234567-89ab-cdef-0123-456789abcdef",
+      "amount": 120.00,
+      "odds": 1.95,
+      "potential_payout": 234.00,
+      "status": "pending",
+      "placed_at": "2024-11-26T08:00:00Z"
+    },
+    {
+      "id": "b6789012-def0-1234-5678-9abcdef01234",
+      "user_id": "u2345678-9abc-def0-1234-56789abcdef0",
+      "match_id": "m5678901-cdef-0123-4567-89abcdef0123",
+      "team_id": "d4567890-bcde-f012-3456-789abcdef012",
+      "amount": 60.00,
+      "odds": 2.40,
+      "potential_payout": 144.00,
+      "status": "pending",
+      "placed_at": "2024-11-26T15:00:00Z"
+    }
+  ],
+  "match_odds": [
+    {
+      "id": "mo123456-789a-bcde-f012-3456789abcde",
+      "match_id": "m5678901-cdef-0123-4567-89abcdef0123",
+      "team_id": "b89012de-f012-3456-789a-bcdef0123456",
+      "odds": 1.70,
+      "created_at": "2024-11-20T00:00:00Z",
+      "updated_at": "2024-11-20T00:00:00Z"
+    },
+    {
+      "id": "mo234567-89ab-cdef-0123-456789abcdef",
+      "match_id": "m5678901-cdef-0123-4567-89abcdef0123",
+      "team_id": "d4567890-bcde-f012-3456-789abcdef012",
+      "odds": 2.40,
+      "created_at": "2024-11-20T00:00:00Z",
+      "updated_at": "2024-11-20T00:00:00Z"
+    },
+    {
+      "id": "mo345678-9abc-def0-1234-56789abcdef0",
+      "match_id": "m6789012-def0-1234-5678-9abcdef01234",
+      "team_id": "a1234567-89ab-cdef-0123-456789abcdef",
+      "odds": 1.95,
+      "created_at": "2024-11-20T00:00:00Z",
+      "updated_at": "2024-11-20T00:00:00Z"
+    },
+    {
+      "id": "mo456789-abcd-ef01-2345-6789abcdef01",
+      "match_id": "m6789012-def0-1234-5678-9abcdef01234",
+      "team_id": "c9012def-0123-4567-89ab-cdef01234567",
+      "odds": 2.15,
+      "created_at": "2024-11-20T00:00:00Z",
+      "updated_at": "2024-11-20T00:00:00Z"
+    }
+  ]
+}

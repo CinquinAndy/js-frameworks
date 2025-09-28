@@ -143,24 +143,29 @@ erDiagram
 ## Relations Principales
 
 ### 1. **Teams ↔ Players** (Many-to-Many)
+
 - Table de liaison : `team_players`
 - Un joueur peut appartenir à plusieurs équipes (historique)
 - Une équipe a plusieurs joueurs
 
 ### 2. **Tournaments ↔ Matches** (One-to-Many)
+
 - Un tournoi contient plusieurs matchs
 - Chaque match appartient à un tournoi
 
 ### 3. **Teams ↔ Matches** (Multiple Relations)
+
 - `team1_id` : Première équipe du match
 - `team2_id` : Deuxième équipe du match
 - `winner_id` : Équipe gagnante (nullable)
 
 ### 4. **Users ↔ Bets** (One-to-Many)
+
 - Un utilisateur peut placer plusieurs paris
 - Chaque pari appartient à un utilisateur
 
 ### 5. **Matches ↔ Bets** (One-to-Many)
+
 - Un match peut avoir plusieurs paris
 - Chaque pari concerne un match spécifique
 
@@ -170,11 +175,3 @@ erDiagram
 - **`match_results`** : Résultats des matchs terminés
 - **`user_bet_history`** : Historique complet des paris utilisateurs
 - **`team_stats`** : Statistiques des équipes (victoires, défaites, taux de réussite)
-
-## Index de Performance
-
-- `idx_matches_date` : Optimise les requêtes par date
-- `idx_matches_status` : Filtre rapide par statut de match
-- `idx_bets_user` : Accès rapide aux paris d'un utilisateur
-- `idx_bets_match` : Paris liés à un match
-- `idx_team_players_team` : Joueurs d'une équipe
