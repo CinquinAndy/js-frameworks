@@ -1,3 +1,6 @@
+# hi
+
+<https://www.figma.com/deck/nBn2h5Oml0VnkP3igBgpnX/b3---slides?node-id=1-138&t=gJQxI6hGmF2CxJZ5-1>
 Pour faire ce cours je me suis basé, grossièrement sur cette roadmap, mes compétences, et toutes les infos que j'ai pu trouver en plus à côté. ( un super site pour apprendre ce que vous voulez d'ailleurs ;) [Frontend Developer Roadmap: What is Frontend Development?](https://roadmap.sh/frontend) )
 J'y ai pris ce que je voulais, ce que je trouvais cohérent, et vous ai synthétisé + ajouter tout un tas d'infos et de retours d'expériences de ma part !
 
@@ -11,7 +14,7 @@ J'y ai pris ce que je voulais, ce que je trouvais cohérent, et vous ai synthét
 
 ## Mon Parcours
 
-*je raconte ma vie, mais en vrai, on s'en fiche*
+**je raconte ma vie, mais en vrai, on s'en fiche**
 
 Hey !
 
