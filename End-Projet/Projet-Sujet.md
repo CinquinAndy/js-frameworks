@@ -1,41 +1,97 @@
-# Sujet final
+# Projet Final - Plateforme de Paris E-sportifs
 
-Vous êtes un jeune étudiant, en troisième année d'école d'ingénierie informatique !
-Un client viens vous voir, un de vos meilleurs amis !
-( ou amie , comme vous voulez ;) )
+## Contexte du Projet
 
-Cette personne vient vous voir et vous présente son projet REVOLUTIONNAIRE !
+Vous êtes étudiant en troisième année d'école d'ingénierie informatique. Un client proche vous présente son projet innovant : **une plateforme de paris e-sportifs en ligne**.
 
-L'idée du siècle !
+### Enjeux Business
 
-Une plateforme de paris sportif en ligne ! Mais pas n'importe laquelle, une plateforme de paris E-sportif !
-Après quelques heures de discussions et d'explications, vous acceptez cette mission, une VC des Emirat Arabe Unis est dérrière et à besoin d'un POC qui claque ! Sans quoi il ne financera pas le projet, et vous pourrez dire adieux à toute possibilitée de travailler avec ce client.
+- Une VC des Émirats Arabes Unis finance le projet
+- Besoin d'un **POC (Proof of Concept) fonctionnel** pour valider le financement
+- Chaque fonctionnalité supplémentaire et élément créatif sera valorisé
 
-L'idée est donc de réaliser une première version de l'idée, fonctionnelle, la plus simple possible. Chaque feature ajoutées sera recompensée, et chaque élément créatif, idée originale sera également récompensée.
+## Objectif
 
-Vous avez à votre disposition un export sql des données qu'on pourrait avoir dans ce genre d'application.
-Vous êtes totalement libre sur le choix des technos (seule condition: ça doit être du JS/TS (dans l'écosystème)), tout le reste est libre, le design, la direction artisitique, et les équipes que vous voulez faire affrontées.
-Les données fournies ne sont pas obligatoires et vous pouvez, si vous le souhaitez, en ajouter, en supprimer, et les modifiers comme bon vous semble.
-Vous pouvez demander un format de donnée spécifique en fonction de ce que vous avez en tête.
+Développer une **première version fonctionnelle** de la plateforme, simple mais complète, démontrant le potentiel du concept.
 
-Je vous fournis également un moodboard, une charte graphique, et des liens de toutes les ressources que vous pourrez utiliser.
+## Contraintes Techniques
 
-On vous demande les fonctionnalitées suivantes :
+### Technologies Imposées
 
-- Landing: présentation de l'idée rapidement
-- Admin: Faire une page de création d'une nouvelle équipe
-  - on doit pouvoir créer une nouvelle équipe
-  - on doit pouvoir upload une image de profil de cette équipe
-  - on doit pouvoir modifier cette équipe
-  - on doit pouvoir supprimer une équipe
-- Admin: Faire une page de création d'un match
-  - on doit pouvoir ajouter un nouveau match
-  - on doit pouvoir modiifer un match en cours
-  - on doit pouvoir supprimer un match
-- Visiteur: Faire une page de paris sur les matchs ouverts
-  - on doit juste pouvoir placer une nouvelle offre
-- Visiteur: Voir les resultats
-- Visiteur: être capable de voir ses gains, ses pertes
+- **Écosystème JavaScript/TypeScript uniquement**
+- Liberté totale sur le choix des frameworks et outils
 
-je ne vous demande pas spécifiquement de faire de système d'authentification, et de connexion, mais vous êtes libre de le faire, si par exemple, vous avez choisis de déporter votre backend vers un CMS // une solution tierce, vous pouvez tout à fait mettre en place cela, ce sera pris en compte dans les points. Mais si vous ne vous en sentez pas capable, c'est peut être une trop grande perte de temps.
-( je souligne le fait que dans un vrai projet professionnel, ce serait une des premières brique à mettre en place )
+### Ressources Fournies
+
+- Export SQL des données de base
+- Moodboard et charte graphique (optionnel)
+- Ressources de développement
+
+### Flexibilité des Données
+
+- Les données fournies sont modifiables selon vos besoins
+- Possibilité d'ajouter, supprimer ou modifier les structures
+- Format de données personnalisable sur demande
+
+## Fonctionnalités Requises
+
+### 1. Page d'Accueil (Landing)
+
+- Présentation claire et concise du concept
+- Interface attractive pour les visiteurs
+
+### 2. Interface d'Administration - Gestion des Équipes
+
+- **Créer** une nouvelle équipe
+- **Uploader** une image de profil d'équipe
+- **Modifier** les informations d'une équipe
+- **Supprimer** une équipe
+
+### 3. Interface d'Administration - Gestion des Matchs
+
+- **Ajouter** un nouveau match
+- **Modifier** un match en cours
+- **Supprimer** un match
+
+### 4. Interface Visiteur - Système de Paris
+
+- **Placer** une nouvelle offre sur les matchs ouverts
+- Interface intuitive pour les paris
+
+### 5. Interface Visiteur - Résultats et Statistiques
+
+- **Consulter** les résultats des matchs
+- **Visualiser** ses gains et pertes personnels
+
+## Fonctionnalités Optionnelles
+
+### Système d'Authentification
+
+- **Non obligatoire** mais valorisé si implémenté
+- Recommandé si vous utilisez un CMS ou solution tierce
+- **Important** : Dans un projet professionnel réel, ce serait prioritaire
+
+## Critères d'Évaluation
+
+- Fonctionnalités de base implémentées
+- Qualité du code et architecture
+- Créativité et originalité
+- Interface utilisateur et expérience
+- Fonctionnalités bonus
+
+## Livrables Attendus
+
+- Application fonctionnelle
+- Code source organisé
+- Documentation technique (optionnelle mais appréciée)
+
+## Ressources Disponibles
+
+- Données SQL d'exemple
+- Moodboard et charte graphique
+- Support technique pendant le développement
+
+---
+
+Le pitch qu'il a envoyer avant de passer par ChatGPT, si vous voulez la version plus humaine !
+--> 
