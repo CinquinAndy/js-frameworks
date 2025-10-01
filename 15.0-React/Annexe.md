@@ -1,5 +1,5 @@
 # React - Annexe des Liens et Ressources
-
+Dans la deuxième partie de ce fichier, j'ai mis la liste des technos que j'utilise aujourd'hui en prod / dans mon quotidien, 
 ## 📚 Documentation Officielle
 
 ### React Core
