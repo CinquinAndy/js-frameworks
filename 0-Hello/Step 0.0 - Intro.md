@@ -67,7 +67,7 @@ Compétences à acquérir:
 - Utiliser l’API la plus adaptée au contexte technique et fonctionnel de l’application informatique.
 - Utiliser le « Frameworks » le plus adapté au contexte technique et fonctionnel de l’application informatique
 
-Pour ça, on va passer par tout un tas d'étape, et de chapitre, je vous ai que 20 ans, vous montrer tout ça, et vous faire pratiquer, c'est la seule chose que je peux faire, je ne pourrais pas vous assister sur chaque étapes en cours, il va falloir que vous bossiez de votre côté, et que vous vous donniez pour avoir les compétences, ce sont des compétences ULTRA importantes professionnellement aujourd'hui, dans le bassin Nantais, en France et même à l'étranger, car de plus en plus, les compétences se mutualise, les entreprises veulent des gens qui font les features de A à Z , et qui savent toucher au back, autant qu'au front à tout moment !
+Pour ça, on va passer par tout un tas d'étape, et de chapitre, je vous ai que 20 heures, vous montrer tout ça, et vous faire pratiquer, c'est la seule chose que je peux faire, je ne pourrais pas vous assister sur chaque étapes en cours, il va falloir que vous bossiez de votre côté, et que vous vous donniez pour avoir les compétences, ce sont des compétences ULTRA importantes professionnellement aujourd'hui, dans le bassin Nantais, en France et même à l'étranger, car de plus en plus, les compétences se mutualise, les entreprises veulent des gens qui font les features de A à Z , et qui savent toucher au back, autant qu'au front à tout moment !
 
 Je ne vais donc, pas vous imposer de framework, juste vous expliquer les différences entre chaque, et l’intérêt de chacun de ces frameworks.
 
