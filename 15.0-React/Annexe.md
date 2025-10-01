@@ -1,14 +1,14 @@
 # React - Annexe des Liens et Ressources
-Dans la deuxième partie de ce fichier, j'ai mis la liste des technos que j'utilise aujourd'hui en prod / dans mon quotidien, 
-## 📚 Documentation Officielle
 
-### React Core
+Dans la deuxième partie de ce fichier, j'ai mis la liste des technos que j'utilise aujourd'hui en prod / dans mon quotidien, et tout ce que je vous conseillerai à chaud comme ça, j'ai essayer de vous donner un maximum d'informations et un maximum de cas d'usage et les outils que j'utilise personnelement ;) !
+
+## React Core
 
 - [React Documentation](https://react.dev/learn) - Documentation officielle React
 - [React API Reference](https://react.dev/reference/react) - Référence complète des APIs
 - [Thinking in React](https://react.dev/learn/thinking-in-react) - Guide conceptuel
 
-### Vite
+## Vite
 
 - [Vite Documentation](https://vite.dev/guide/) - Guide officiel Vite -> à utiliser grossièrement pour React classique
 - [Vite React Plugin](https://github.com/vitejs/vite/tree/main/packages/plugin-react) - Plugin React pour Vite
@@ -193,7 +193,7 @@ Si vous souhaitez explorer des librairies particulières et répondre aux diffé
 - Si vous avez un doute tapez "what's the best framework js, reddit" : vous aurez une guerre interminable de gens qui veulent absolument avoir raison sur reddit, c'est très interessant car vous voyez la version hardcore de chaque extrême des pensées de chacun sur chaque frameworks / chaque technos, vous pouvez faire la même chose pour tout vos choix futurs et doutes, ça marche très bien
 - J'adoooore le "Roadmap.sh" qui permet d'avoir des directions à prendre
 - Checkez "app.daily.dev" pour faire de la veille
-- Baladez vous sur Youtube, il y a pleins de youtubeur chouette dans la tech, surtout chez les américains / anglais. 
+- Baladez vous sur Youtube, il y a pleins de youtubeur chouette dans la tech, surtout chez les américains / anglais.
 
 ---
 
