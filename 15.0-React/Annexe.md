@@ -179,6 +179,3 @@
 - [Sentry](https://sentry.io/for/react/) - Monitoring d'erreurs
 - [LogRocket](https://logrocket.com/) - Session replay et monitoring
 
----
-
-*Dernière mise à jour : Décembre 2024*
