@@ -53,3 +53,16 @@ Ce dernier axe concerne l'aspect visuel et la facilité d'utilisation de l'appli
 ---
 
 Si vous avez une question sur un point en particulier, n'hésitez pas !
+
+---
+
+Ce que j'attend de vous :
+
+J'ai besoin, en plus de code fonctionnel, et plus de ce que je demande dans le sujet,
+d'un fichier qui explique les choses suivantes :
+
+- Une explication ( faite à la main svp ), des choix de techno. Pourquoi vous avez choisis ce framework.
+- Une mini liste des features que vous avez ajoutés en plus / des choses dont vous êtes fières, qui mériterait des points bonus à vos yeux
+- Une partie qui explique et montre les ressources dont j'ai besoin pour lancer votre projet et avoir le même rendu que vous !
+- Le partage de TOUT les accès nécessaires à vos yeux, des screens, les variables d'environnements, et accès à des ressources etc.
+- Des schémas d'explications, pour l'architecture de fichier / architecture logicielle / les communications entre les applications.
